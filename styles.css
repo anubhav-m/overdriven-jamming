@@ -1,18 +1,18 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background: url('./images/lightning.gif') no-repeat center center fixed;
     background-size: cover;
 }
 
-ul{
-    margin:20px 5%;
+ul {
+    margin: 20px 5%;
     list-style-type: none;
     display: flex;
-    gap:30px;
+    gap: 30px;
     color: white;
     font-family: "Playwrite BE WAL", cursive;
     font-optical-sizing: auto;
@@ -20,31 +20,31 @@ ul{
     font-style: normal;
 }
 
-li:hover{
-    color:#BB86FC;
+li:hover {
+    color: #BB86FC;
     cursor: pointer;
     text-decoration: underline;
 }
 
-.li-item-1{
+.li-item-1 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-size:34px;
+    font-size: 34px;
     font-weight: 600;
     font-style: normal;
 }
 
-.li-item-1:hover{
+.li-item-1:hover {
     text-decoration: none;
 }
 
-.li-item-2{
-    margin-left:auto;
+.li-item-2 {
+    margin-left: auto;
 }
 
-.title h1{
+.title h1 {
     margin-top: 50px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
@@ -52,72 +52,82 @@ li:hover{
 }
 
 .card-container {
-  overflow-x: auto;
-  white-space: nowrap;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
 }
 
 .cards {
-  display: flex;
+    margin:10px 40px;
+    display: flex;
 }
+
+
 
 .card {
-  background-color: #121212;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-right: 20px;
-  width: 200px;
-  flex-shrink: 0;
-  display: inline-block;
-  cursor: pointer;
+    background-color: #121212;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    width: 200px;
+    flex-shrink: 0;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for hover effect */
 }
 
+.card:hover {
+    transform: translateY(-10px); /* Move card up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
 .card-image {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .card-content {
-  padding: 16px;
+    padding: 16px;
 }
 
 .card-title {
-  font-size: 18px;
-  margin: 0 0 10px 0;
-  color: #BB86FC;
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #BB86FC;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 
 .card-description {
-  
-  font-size: 14px;
-  color: #FFFFFF;
-  font-family: "Nanum Gothic Coding", monospace;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: "Nanum Gothic Coding", monospace;
     font-weight: 400;
     font-style: normal;
     text-align: center;
 }
 
 .card-container::-webkit-scrollbar {
-  height: 8px;
+    height: 8px;
 }
 
 .card-container::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 4px;
+    background: #888;
+    border-radius: 4px;
 }
 
 .card-container::-webkit-scrollbar-thumb:hover {
-  background: #555;
+    background: #555;
+}
+
+.small-text-card .card-title{
+    font-size: 14px;
 }
 
 .lyrics-container {
@@ -129,9 +139,9 @@ li:hover{
     margin: 20px auto;
     max-width: 500px; /* Adjust based on your design */
     border: 1px solid #373737; /* Border color */
-  }
+}
 
-.lyrics-title{
+.lyrics-title {
     font-size: 24px;
     color: #BB86FC;
     font-family: "Pacifico", cursive;
@@ -140,7 +150,7 @@ li:hover{
     text-align: center;
 }
 
-.lyrics{
+.lyrics {
     text-align: center;
     font-size: 1.3rem;
     font-family: "Nanum Gothic Coding", monospace;

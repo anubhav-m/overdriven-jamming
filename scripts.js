@@ -271,7 +271,130 @@ function handleCardClick(cardId) {
             beswaadiyon mein, beswaadiyon mein<br>
             jaise mil raha ho koi zaayka<br>
             qaafirana sa hai<br>
-            ishq hai ya... kya hai?`
+            ishq hai ya... kya hai?`;
+            break;
+        case '10':
+            lyricsTitle.innerHTML= "Lyrics - Lose Yourself<br><br>";
+            lyrics.innerHTML=`
+            Look... If you had... one shot... or one opportunity...<br>
+            To seize everything you ever wanted... one moment...<br>
+            Would you capture it? Or just let it slip?<br>
+            Yo<br><br>
+
+            [Verse 1]<br>
+            His palms are sweaty, knees weak, arms are heavy<br>
+            There's vomit on his sweater already, mom's spaghetti<br>
+            He's nervous, but on the surface he looks calm and ready<br>
+            to drops bombs, but he keeps on forgetting<br>
+            what he wrote down, the whole crowd goes so loud<br>
+            He opens his mouth but the words won't come out<br>
+            He's chokin, how? Everybody's jokin now<br>
+            The clock's run out, time's up, over - BLAOW!<br>
+            Snap back to reality, OHH! there goes gravity<br>
+            OHH! there goes Rabbit, he choked<br>
+            He's so mad, but he won't<br>
+            Give up that easy nope, he won't have it<br>
+            He knows, his whole back's to these ropes<br>
+            It don't matter, he's dope<br>
+            He knows that, but he's broke<br>
+            He's so sad that he knows<br>
+            when he goes back to this mobile home, that's when it's<br>
+            back to the lab again, yo, this whole rap shift<br>
+            He better go capture this moment and hope it don't pass him<br><br>
+
+            [Chorus]<br>
+            You better - lose yourself in the music, the moment<br>
+            You own it, you better never let it go (go)<br>
+            You only get one shot, do not miss your chance to blow<br>
+            This opportunity comes once in a lifetime<br>
+            You better - lose yourself in the music, the moment<br>
+            You own it, you better never let it go (go)<br>
+            You only get one shot, do not miss your chance to blow<br>
+            This opportunity comes once in a lifetime<br>
+            You better..`;
+            break;
+        case '11':
+            lyricsTitle.innerHTML="Lyrics - Khuda Jaane<br><br>";
+            lyrics.innerHTML=`
+            Sajde Mein Yun Hi Jhukta Hoon<br>
+            Tum Pe Hi Aa Ke Rukhta Hoon<br>
+            Kya Yeh Sab Ko Hota Hai<br><br>
+
+            Hum Ko Kya Lena Hai Sab Se<br>
+            Tum Se Hi Sab Baatein Ab Se<br>
+            Ban Gaye Ho Tum Meri Dua<br><br>
+
+            Sajde Mein Yun Hi Jhukta Hoon<br>
+            Tum Pe Hi Aa Ke Rukhta Hoon<br>
+            Kya Yeh Sab Ko Hota Hai<br><br>
+
+            Hum Ko Kya Lena Hai Sab Se<br>
+            Tum Se Hi Sab Baatein Ab Se<br>
+            Ban Gaye Ho Tum Meri Dua<br>
+            Khuda Jaane Ke Mein Fida Hoon<br>
+            Khuda Jaane Mein Mitt Gaya<br>
+            Khuda Jaane Yeh Kyun Hua Hai<br>
+            Ke Ban Gaye Ho Tum Mere Khuda<br><br>
+
+            Tu Kahe To Tere Hi Kadam Ke<br>
+            Main Nishanon Pe<br>
+            Chalun Rukun Ishaare Pe<br>
+            Tu Kahe To Khwabon Ka Bana Ke<br>
+            Main Bahana Sa<br>
+            Mila Karun Sirhaane Pe<br>
+            Ho Tum Pe Dil Ki Baatein Seekhi<br>
+            Tum Se Hi Yeh Raahein Seekhi<br>
+            Tum Pe Mar Ke Main To Jee Gaaya<br><br>
+
+            Khuda Jaane Ke Mein Fida Hoon<br>
+            Khuda Jaane Mein Mitt Gaya<br>
+            Khuda Jaane Yeh Kyun Hua Hai<br>
+            Ke Ban Gaye Ho Tum Mere Khud`;
+            break;
+        
+        case '12':
+            lyricsTitle.innerHTML="Lyrics - Jee Le Zaraa<br><br>";
+            lyrics.innerHTML=`
+            Main hoon gumsum tu bhi khamosh hai<br>
+            Sach hai samay ka hi sab dosh hai<br>
+            Dhadkan dhadkan ik gam rehta hai<br>
+            Ho.. jaane kyyn phir bhi dil kehta hai<br><br>
+
+            Jee le zara, jee le zara<br>
+            Kehta hai dil, jee le zara<br>
+            Aye humsafar, aye humnawaaz<br>
+            Aa paas aa, jee le zara<br><br>
+
+            Hai zindagi mana dard bhari<br>
+            Phir bhi is mein yeh raahat bhi hai<br>
+            Main hoon tera, aur tu hai meri<br>
+            Yun hi rahein hum, yeh chahat bhi hai<br>
+            Phir dil ke dil se, pul kyu toote hain<br>
+            Kyun hum jeene se itne roothe hain<br>
+            Aa dil ke darwaaze hum khole<br>
+            Ho.. aa hum dono jee bhar ke ro lein<br><br>
+
+            Jee le zara, jee le zara<br>
+            Kehta hai dil, jee le zara<br>
+            Aye humsafar, aye humnawaaz<br>
+            Aa paas aa, jee le zara`;
+            break;
+
+        case '13':
+            lyricsTitle.innerHTML="Lyrics - Tum Hi Ho<br><br>";
+            lyrics.innerHTML=`
+            Tumhi ho... Tumhi ho...<br>
+            Tere liye hi jiya main<br>
+            Khud ko jo yun de diya hai<br>
+            Teri wafa ne mujhko sambhala<br>
+            Saare ghamon ko dil se nikala<br>
+            Tere saath mera hai naseeb juda<br>
+            Tujhe paake adhoora naa raha hmm.. Kyunki tum hi ho<br>
+            Ab tum hi ho<br>
+            Zindagi ab tum hi ho..<br>
+            Chain bhi, mera dard bhi<br>
+            Meri aashiqui ab tum hi ho (x2)`;
+            break;
     }
 }
 

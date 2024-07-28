@@ -15,7 +15,7 @@ body {
 
 .nav-container{
     display: flex;
-    gap: 13px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -32,6 +32,10 @@ ul .nav-item-1{
     font-style: normal;
 }
 
+ul .nav-item-1:hover{
+    cursor: pointer;
+}
+
 ul .nav-item-1 img{
     width: 400px;
 }
@@ -46,11 +50,6 @@ ul .nav-item-2 img{
 
 ul .nav-item-3 img{
     width: 30px;
-}
-
-header h1:hover {
-    color: #BB86FC;
-    cursor: pointer;
 }
 
 

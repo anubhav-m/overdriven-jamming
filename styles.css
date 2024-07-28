@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('./images/lightning.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+ul{
+    margin:20px 5%;
+    list-style-type: none;
+    display: flex;
+    gap:30px;
+    color: white;
+    font-family: "Playwrite BE WAL", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+li:hover{
+    color:#BB86FC;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.li-item-1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size:34px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.li-item-1:hover{
+    text-decoration: none;
+}
+
+.li-item-2{
+    margin-left:auto;
+}
+
+.title h1{
+    margin-top: 50px;
+    color:#FFFFFF;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.card-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  background-color: #121212;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  width: 200px;
+  flex-shrink: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  color: #BB86FC;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  
+}
+
+.card-description {
+  
+  font-size: 14px;
+  color: #FFFFFF;
+  font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.card-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.card-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.lyrics-container {
+    background: rgba(18, 18, 18, 0.6); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    color: #FFFFFF; /* White text for readability */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 500px; /* Adjust based on your design */
+    border: 1px solid #373737; /* Border color */
+  }
+
+.lyrics-title{
+    font-size: 24px;
+    color: #BB86FC;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.lyrics{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.25;
+}

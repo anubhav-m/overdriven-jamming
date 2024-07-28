@@ -276,10 +276,6 @@ function handleCardClick(cardId) {
         case '10':
             lyricsTitle.innerHTML= "Lyrics - Lose Yourself<br><br>";
             lyrics.innerHTML=`
-            Look... If you had... one shot... or one opportunity...<br>
-            To seize everything you ever wanted... one moment...<br>
-            Would you capture it? Or just let it slip?<br>
-            Yo<br><br>
 
             [Verse 1]<br>
             His palms are sweaty, knees weak, arms are heavy<br>

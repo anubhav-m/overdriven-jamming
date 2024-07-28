@@ -8,18 +8,44 @@ body {
     background-size: cover;
 }
 
-header{
+.navbar{
     margin: 30px 5%;
     color:white;
 }
 
-header h1{
-    text-align: center;
+.nav-container{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+ul .nav-item-1{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-size: 2rem;
     font-weight: 600;
     font-style: normal;
+}
+
+ul .nav-item-1 img{
+    width: 400px;
+}
+
+ul .nav-item-2{
+    margin-left: auto;
+}
+
+ul .nav-item-2 img{
+    width:30px;
+}
+
+ul .nav-item-3 img{
+    width: 30px;
 }
 
 header h1:hover {
@@ -124,7 +150,7 @@ header h1:hover {
     padding: 20px;
     border-radius: 8px;
     margin: 20px auto;
-    max-width: 500px; /* Adjust based on your design */
+    max-width: 450px; /* Adjust based on your design */
     border: 1px solid #373737; /* Border color */
 }
 
@@ -147,14 +173,13 @@ header h1:hover {
 }
 
 
-/* Media query for screens 768px wide or smaller */
 @media (max-width: 768px) {
-    header h1{
-        font-size: 1.5rem;
-    }
+    ul .nav-item-1 img{
+        width: 250px;
+    }    
     
     .title h1 {
-        font-size: 1rem; /* Example: smaller font size for the title on mobile */
+        font-size: 1rem;
     }
 
     .lyrics-container{
@@ -162,10 +187,10 @@ header h1:hover {
     }
 
     .lyrics-title {
-        font-size: 1rem; /* Example: smaller font size for lyrics title on mobile */
+        font-size: 1.3rem; 
     }
 
     .lyrics {
-        font-size: 0.8rem; /* Example: smaller font size for lyrics text on mobile */
+        font-size: 1rem;
     }
 }

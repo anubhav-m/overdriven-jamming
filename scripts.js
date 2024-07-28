@@ -250,7 +250,28 @@ function handleCardClick(cardId) {
             Tere bin ek din jaise sau saal hai<br>
             Anjaam hai tay mera Hona tumhe hai mera<br>
             Jitni bhi hon dooriyan filhaal hain<br>
-            Yeh dooriyaan filhaal hain`
+            Yeh dooriyaan filhaal hain`;
+            break;
+        case '9':
+            lyricsTitle.innerHTML="Lyrics - Qaafirana<br><br>";
+            lyrics.innerHTML=`
+            in vaadiyon mein Takraa chuke hain<br>
+            humse musafir yoon to kai<br>
+            dil na lagaaya humne kisi se<br>
+            qisse sune hain yoon to kai<br>
+            aise tum mile ho,<br>
+            aise tum mile ho<br>
+            jaise mil rahi ho itr se hawa<br>
+            qaafirana sa hai<br>
+            ishq hai ya... kya hai?<br>
+            khamoshiyon mein boli tumhaari<br>
+            kuch is tarah goonjti hai<br>
+            kaanon se mere hote hue wo<br>
+            dil ka pata DhoonDhti hai<br>
+            beswaadiyon mein, beswaadiyon mein<br>
+            jaise mil raha ho koi zaayka<br>
+            qaafirana sa hai<br>
+            ishq hai ya... kya hai?`
     }
 }
 

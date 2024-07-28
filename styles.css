@@ -142,6 +142,17 @@ ul .nav-item-3 img{
     font-size: 14px;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .lyrics-container {
     background: rgba(18, 18, 18, 0.6); /* Semi-transparent background */
     backdrop-filter: blur(10px); /* Blur effect */
@@ -152,6 +163,7 @@ ul .nav-item-3 img{
     max-width: 450px; /* Adjust based on your design */
     border: 1px solid #373737; /* Border color */
 }
+
 
 .lyrics-title {
     font-size: 24px;

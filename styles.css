@@ -193,6 +193,10 @@ ul .nav-item-3 img{
         font-size: 1rem;
     }
 
+    .cards {
+        margin:10px 10px;
+    }
+
     .lyrics-container{
         max-width: 280px;
     }
